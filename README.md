@@ -4,13 +4,13 @@ Proof-of-concept web app for predesigning printable gyroid motor-mount metamater
 
 The app implements the empirical scaling laws developed in the thesis:
 
-\[
-f_c \approx \frac{\sqrt{E/\rho}}{L}\Phi(\rho^*)
-\]
+$$
+f_c \approx \frac{\sqrt{E/\rho}}{L}\,\Phi(\rho^*)
+$$
 
-\[
-\Delta f \approx \frac{\sqrt{E/\rho}}{L}\Psi(\rho^*)
-\]
+$$
+\Delta f \approx \frac{\sqrt{E/\rho}}{L}\,\Psi(\rho^*)
+$$
 
 It recommends a unit-cell size, relative density, threshold, and predicted bandgap, then exports a gyroid STL file for additive manufacturing.
 
